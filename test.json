@@ -1,0 +1,70 @@
+{
+    "experimentId": "exp-portfolio-display-001",
+    "name": "Portfolio Engagement Optimization",
+    "description": "A/B test to measure user engagement with different portfolio layouts and track interactions with portfolio items.",
+    "startDate": "2023-05-01T00:00:00Z",
+    "endDate": "2023-06-01T00:00:00Z",
+    "status": "active",
+    "owner": "product-team",
+    "trafficSplit": {
+        "A": 50,
+        "B": 50
+    },
+    "variants": {
+        "A": {
+            "portfolio.header": "Explore My Projects",
+            "portfolio.subheader": "A curated selection of my best work",
+            "portfolio.cta": "View Portfolio",
+            "display.layout": "grid",
+            "tracking": {
+                "clickEvent": "portfolio_cta_click_A",
+                "viewEvent": "portfolio_view_A"
+            },
+            "componentToggles": [
+                {
+                    "enabled": true,
+                    "component": "PortfolioGrid"
+                },
+                {
+                    "enabled": true,
+                    "component": "PortfolioFilter"
+                }
+            ]
+        },
+        "B": {
+            "portfolio.header": "Discover Innovative Solutions",
+            "portfolio.subheader": "Showcasing recent work and creative breakthroughs",
+            "portfolio.cta": "See My Work",
+            "display.layout": "list",
+            "tracking": {
+                "clickEvent": "portfolio_cta_click_B",
+                "viewEvent": "portfolio_view_B"
+            },
+            "componentToggles": [
+                {
+                    "enabled": true,
+                    "component": "ContactForm"
+                }
+            ]
+        }
+    },
+    "targeting": {
+        "devices": [
+            "desktop",
+            "mobile"
+        ],
+        "regions": [
+            "US",
+            "EU",
+            "APAC"
+        ]
+    },
+    "metrics": {
+        "primary": "engagementRate",
+        "secondary": [
+            "clickThroughRate",
+            "timeOnPage"
+        ]
+    },
+    "version": "1.0"
+}
