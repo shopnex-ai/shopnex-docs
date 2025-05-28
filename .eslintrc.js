@@ -1,19 +1,12 @@
 module.exports = {
     root: true,
     parser: '@typescript-eslint/parser',
-    plugins: ['tailwindcss', '@typescript-eslint'],
     extends: [
         'next/core-web-vitals',
         'prettier',
-        'plugin:tailwindcss/recommended',
         'plugin:@tanstack/eslint-plugin-query/recommended',
         'plugin:@typescript-eslint/recommended',
     ],
-    settings: {
-        tailwindcss: {
-            callees: ['cn', 'clsx', 'tw'],
-        },
-    },
     rules: {
         '@typescript-eslint/no-explicit-any': 'off',
         'react/jsx-key': 'error',
@@ -38,8 +31,6 @@ module.exports = {
                 depth: 3,
             },
         ],
-        'tailwindcss/no-custom-classname': 'off',
-        'tailwindcss/classnames-order': 'off',
     },
     ignorePatterns: [
         '**/*.js',
