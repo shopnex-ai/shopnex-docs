@@ -1,4 +1,3 @@
-
 import { getBaseUrl } from '@/server/client';
 import type { MetadataRoute } from 'next';
 
