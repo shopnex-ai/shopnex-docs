@@ -12,7 +12,7 @@ const withNextra = nextra({
 });
 
 const baseConfig: NextConfig = {
-    output: 'standalone',
+    output: 'export',
     reactStrictMode: true,
     serverExternalPackages: ['@node-rs/argon2'],
     pageExtensions: ['mdx', 'jsx', 'js', 'ts', 'tsx'],
