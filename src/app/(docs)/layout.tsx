@@ -3,7 +3,7 @@ import { Footer, Layout, Navbar } from 'nextra-theme-docs';
 import 'nextra-theme-docs/style.css';
 import { getPageMap } from 'nextra/page-map';
 
-const navbar = <Navbar logo={<Logo neutral />} />;
+const navbar = <Navbar logo={<Logo />} />;
 const footer = <Footer>MIT {new Date().getFullYear()} © Nextra.</Footer>;
 
 export default async function RootLayout({ children }: any) {
