@@ -34,7 +34,8 @@
         "**/*.tsx",
         "**/*.mdx",
         ".next/types/**/*.ts",
-        "next.config.ts"
+        "next.config.ts",
+, "src/app/_meta.ts"        "src/app/_meta.ts"
     ],
     "exclude": ["node_modules"]
 }

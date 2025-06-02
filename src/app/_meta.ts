@@ -1,18 +1,10 @@
 import type { MetaRecord } from 'nextra';
 
-/**
- * type MetaRecordValue =
- *  | TitleSchema
- *  | PageItemSchema
- *  | SeparatorSchema
- *  | MenuSchema
- *
- * type MetaRecord = Record<string, MetaRecordValue>
- **/
 const meta: MetaRecord = {
+    'getting-started': 'Getting Started',
     index: {
-        type: 'page',
-        title: 'Documentation',
+        type: 'doc',
+        display: 'hidden',
     },
 };
 
