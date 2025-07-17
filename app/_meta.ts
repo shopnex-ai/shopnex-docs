@@ -9,15 +9,15 @@ export default {
     // },
     // examples: "Examples",
     index: "Welcome",
+    "getting-started": "Getting Started",
     quickstart: {
         display: "hidden",
     },
-    // eslint-disable-next-line perfectionist/sort-objects
-    design: {
-        display: "hidden",
-    },
+
+    design: "Design",
+    settings: "Store Settings",
     plugins: "Plugins",
-    "self-hosted": "Self-hosted",
+    // "self-hosted": "Self-hosted",
     // mask: "Mask",
     // popover: "Popover",
     // tour: "Tour",
