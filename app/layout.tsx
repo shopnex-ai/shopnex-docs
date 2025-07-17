@@ -29,7 +29,7 @@ export default async function RootLayout({ children }) {
                     docsRepositoryBase="https://github.com/shopnex-ai/shopnex/tree/main/apps/docs"
                     editLink={<>Edit this page on GitHub </>}
                     feedback={{
-                        content: "Question? Give us feedback →",
+                        content: "Question? Give us feedback",
                         labels: "feedback",
                     }}
                     footer={footer}
