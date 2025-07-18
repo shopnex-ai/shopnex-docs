@@ -16,6 +16,7 @@ export default {
 
     design: "Design",
     settings: "Store Settings",
+    deployment: "Deployment",
     plugins: "Plugins",
     // "self-hosted": "Self-hosted",
     // mask: "Mask",
