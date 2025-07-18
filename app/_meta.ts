@@ -9,6 +9,9 @@ export default {
     // },
     // examples: "Examples",
     index: "Welcome",
+    "why-choose-shopnex": {
+        type: "page",
+    },
     "getting-started": "Getting Started",
     quickstart: {
         display: "hidden",
