@@ -11,8 +11,13 @@ export default {
     index: "Welcome",
     "why-choose-shopnex": {
         type: "page",
+        theme: {
+            sidebar: true,
+        },
     },
-    "getting-started": "Getting Started",
+    "getting-started": {
+        title: "Getting Started",
+    },
     quickstart: {
         display: "hidden",
     },
